@@ -1,1 +1,2 @@
-@import url("../css/style.css") (max-width: 1920px) and (min-width: 0px);
+@import url("../style/style.css") (min-width: 1001px);
+@import url("../style/style-tablet.css") (max-width: 1000px) and (min-width: 0px);

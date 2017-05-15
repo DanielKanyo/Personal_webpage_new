@@ -21,6 +21,21 @@
 
   </head>
   <body>
+    <!-- MENU BAR -->
+    <div class="menu_button">
+      <button type="button" name="button" class="menu_icon" id="menu_icon"></button>
+    </div>
+    <div class="menu_block" id="menu_block">
+      <button type="button" name="button" class="close_icon" id="close_icon"></button>
+      <button type="button" name="button" class="menu_item" id="aboutme">ABOUT ME</button>
+      <button type="button" name="button" class="menu_item" id="skills">SKILLS</button>
+      <button type="button" name="button" class="menu_item" id="opinions">OPINIONS</button>
+      <button type="button" name="button" class="menu_item" id="hobbies">HOBBIES</button>
+      <button type="button" name="button" class="menu_item" id="contact">CONTACT</button>
+      <hr class="line">
+      <button type="button" name="button" class="menu_item" id="top">TOP</button>
+      <button type="button" name="button" class="menu_item" id="bottom">BOTTOM</button>
+    </div>
     <!-- LIGHT BOX -->
     <div class="light_box_bg">
 
@@ -31,33 +46,12 @@
     <!-- CONTENT -->
     <div class="content">
   	  <!-- HEADER -->
-      <div class="menu_bar">
-        <button class="menu_icon" id="menu_icon"></button>
-        <button type="button" name="button" class="menu_button" title="ABOUT ME" id="aboutme">
-          <svg version="1.1" id="Capa_1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 513.32 513.32" style="enable-background:new 0 0 513.32 513.32;" xml:space="preserve"><g><g><path class="fill" d="M346.491,316.547c49.193-29.944,81.275-83.414,81.275-145.44C427.767,76.998,350.768,0,256.66,0S85.553,76.998,85.553,171.107c0,62.026,32.082,115.497,81.275,145.44C81.275,348.63,17.11,423.489,0,513.32h42.777c21.388-98.386,109.081-171.107,213.883-171.107s192.495,72.72,213.883,171.107h42.777C496.21,421.35,432.045,346.491,346.491,316.547z M128.33,171.107c0-70.581,57.749-128.33,128.33-128.33s128.33,57.749,128.33,128.33s-57.749,128.33-128.33,128.33S128.33,241.688,128.33,171.107z"/></g></g></svg>
-        </button>
-        <button type="button" name="button" class="menu_button" title="SKILLS" id="skills">
-          <svg version="1.1" id="Capa_1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 475.075 475.075" style="enable-background:new 0 0 475.075 475.075;" xml:space="preserve"><g><path class="fill" d="M475.075,186.573c0-7.043-5.328-11.42-15.992-13.135L315.766,152.6L251.529,22.694c-3.614-7.804-8.281-11.704-13.99-11.704c-5.708,0-10.372,3.9-13.989,11.704L159.31,152.6L15.986,173.438C5.33,175.153,0,179.53,0,186.573c0,3.999,2.38,8.567,7.139,13.706l103.924,101.068L86.51,444.096c-0.381,2.666-0.57,4.575-0.57,5.712c0,3.997,0.998,7.374,2.996,10.136c1.997,2.766,4.993,4.142,8.992,4.142c3.428,0,7.233-1.137,11.42-3.423l128.188-67.386l128.194,67.379c4,2.286,7.806,3.43,11.416,3.43c7.812,0,11.714-4.75,11.714-14.271c0-2.471-0.096-4.374-0.287-5.716l-24.551-142.744l103.634-101.069C472.604,195.33,475.075,190.76,475.075,186.573z M324.619,288.5l20.551,120.2l-107.634-56.821L129.614,408.7l20.843-120.2l-87.365-84.799l120.484-17.7l53.959-109.064l53.957,109.064l120.494,17.7L324.619,288.5z"/></g></svg>
-        </button>
-        <button type="button" name="button" class="menu_button" title="OPINIONS" id="opinions">
-          <svg version="1.1" id="Capa_1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 432.671 432.671" style="enable-background:new 0 0 432.671 432.671;" xml:space="preserve"><g><path class="fill" d="M109.553,432.671c-23.86,0-46.292-9.292-63.163-26.163c-34.828-34.828-34.828-91.498,0-126.326L246.811,79.761c23.647-23.648,62.127-23.648,85.774,0c23.648,23.648,23.648,62.127,0,85.775L185.164,312.957c-5.857,5.858-15.355,5.858-21.213,0c-5.858-5.858-5.858-15.355,0-21.213l147.421-147.422c11.951-11.951,11.951-31.397,0-43.348c-5.79-5.79-13.487-8.978-21.674-8.978s-15.885,3.188-21.674,8.978L67.603,301.395c-23.131,23.131-23.131,60.769,0,83.9c11.206,11.205,26.104,17.376,41.95,17.376c15.846,0,30.745-6.171,41.95-17.376L356.628,180.17c16.621-16.621,25.774-38.719,25.774-62.225c0-23.506-9.153-45.604-25.774-62.225c-34.312-34.312-90.14-34.311-124.451,0L80.052,207.844c-5.857,5.858-15.355,5.858-21.213,0c-5.858-5.858-5.858-15.355,0-21.213L210.964,34.506c46.008-46.008,120.869-46.008,166.877,0c22.288,22.287,34.562,51.92,34.562,83.439c0,31.519-12.274,61.151-34.562,83.439L172.716,406.508C155.845,423.38,133.413,432.671,109.553,432.671z"/></g></svg>
-        </button>
-        <button type="button" name="button" class="menu_button" title="PHOTOGRAPHY" id="photography">
-          <svg version="1.1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"> <g> <g> <circle class="fill" cx="76" cy="42.4" r="6.6"/> <path class="fill" d="m6.4,119.5c0,0 0,0.1 0,0 0,0.1 0,0.1 0.1,0.1 0.1,0.2 0.2,0.5 0.3,0.7 0,0.1 0.1,0.1 0.1,0.2 0,0.1 0.1,0.1 0.1,0.2 0,0 0.1,0.1 0.1,0.1 0.1,0.2 0.3,0.3 0.4,0.5 0,0 0.1,0.1 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.2 0.1,0 0.1,0.1 0.1,0.1 0.1,0.1 0.2,0.1 0.3,0.2 0,0 0.1,0.1 0.1,0.1 0,0 0.1,0 0.1,0.1 0.1,0.1 0.3,0.1 0.4,0.2 0.1,0 0.1,0 0.2,0.1 0.1,0 0.2,0.1 0.2,0.1 0.3,0.1 0.6,0.1 0.9,0.1h108.2c2.3,0 4.1-1.8 4.1-4.1v-27-80.9c0-2.3-1.8-4.1-4.1-4.1h-107.9c-2.3,0-4.1,1.8-4.1,4.1v80.7 27c0,0.3 0.1,0.7 0.1,1 0,0.1 0,0.2 0,0.2zm108.1-5.2h-90.4l66.8-43.7 23.6,22.5v21.2zm-100-99.6h100v67.1l-20.3-19.4c-1.4-1.3-3.5-1.5-5.1-0.5l-19.1,12.6-13.3-13.4c-1.4-1.4-3.5-1.6-5.1-0.6l-37.1,23.4v-69.2zm0,78.9l38.7-24.4 9.8,9.9-48.5,31.7v-17.2z"/> </g> </g></svg>
-        </button>
-        <button type="button" name="button" class="menu_button" title="CONTACT" id="contact">
-          <svg version="1.1" id="Layer_1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330.001 330.001" style="enable-background:new 0 0 330.001 330.001;" xml:space="preserve"><path class="fill" id="XMLID_20_" d="M165.001,0c-90.981,0-165,74.018-165,164.997c0,90.983,74.019,165.004,165,165.004c8.284,0,15-6.716,15-15c0-8.284-6.716-15-15-15c-74.44,0-135-60.563-135-135.004C30,90.56,90.561,30,165.001,30s135,60.56,135,134.997v37.507c0,12.407-10.096,22.5-22.504,22.5c-12.406,0-22.499-10.093-22.499-22.5v-37.507c0-49.626-40.372-90-89.997-90c-49.626,0-89.999,40.374-89.999,90c0,49.63,40.373,90.007,89.999,90.007c25.927,0,49.323-11.026,65.762-28.63c8.706,16.978,26.379,28.63,46.734,28.63c28.951,0,52.504-23.551,52.504-52.5v-37.507C330,74.018,255.982,0,165.001,0z M165.001,225.004c-33.084,0-59.999-26.919-59.999-60.007c0-33.084,26.915-60,59.999-60c33.083,0,59.997,26.916,59.997,60C224.998,198.085,198.083,225.004,165.001,225.004z"/></svg>
-        </button>
-        <button type="button" name="button" class="menu_button" title="HOME" id="home">
-          <svg version="1.1" id="Capa_1" class="menu_pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve"><g><g><polygon class="fill" points="73,144 136,144 135,181 73,236 "/><polygon class="fill" points="245,124 0,340 26,369 246,175 466,369 492,340 247,124 246,123 "/></g></g></svg>
-        </button>
-      </div>
   		<div class="header_content">
-        <hr class="line">
         <div class="social">
           <a href="https://www.facebook.com/kdesignbydanielkanyo/?ref=aymt_homepage_panel" target="_blank"><button type="button" name="button" class="social_button facebook"></button></a>
           <a href="https://www.instagram.com/daniel_kanyo/" target="_blank"><button type="button" name="button" class="social_button instagram"></button></a>
           <a href="https://500px.com/danielkanyo" target="_blank"><button type="button" name="button" class="social_button fivepx"></button></a>
+          <a href="https://github.com/DanielKanyo" target="_blank"><button type="button" name="button" class="social_button github"></button></a>
         </div>
         <div class="logo"></div>
       </div>
@@ -234,6 +228,7 @@
             <a href="https://www.facebook.com/kdesignbydanielkanyo/?ref=aymt_homepage_panel" target="_blank"><button type="button" name="button" class="footer_social facebook_footer"></button></a>
             <a href="https://www.instagram.com/daniel_kanyo/" target="_blank"><button type="button" name="button" class="footer_social instagram_footer"></button></a>
             <a href="https://500px.com/danielkanyo" target="_blank"><button type="button" name="button" class="footer_social fivepx_footer"></button></a>
+            <a href="https://github.com/DanielKanyo" target="_blank"><button type="button" name="button" class="footer_social github_footer"></button></a>
           </li>
         </ul>
       </div>
